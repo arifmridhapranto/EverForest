@@ -1,0 +1,72 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato&family=Poppins&family=Roboto+Flex:opsz,wght@8..144,400;8..144,600;8..144,700;8..144,800&display=swap');
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Flex', sans-serif; */
+
+
+/* fonts Link End  */
+
+
+/* global styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.section-heading{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #1c1c1c;
+    padding-bottom: 15px;
+}
+.divider{
+    display: block;
+    width: 80px;
+    height: 8px;
+    background-color: #12C8A8;
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+.section-pera{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #303030;
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+.global-btn{
+padding: 16px 32px;
+border-radius: 3px;
+background-color: #12C8A8;
+display: inline;
+border: none;
+margin-top: 20px;
+}
+
+.global-btn a{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #ffffff;
+}
