@@ -1,72 +1,581 @@
 /* fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato&family=Poppins&family=Roboto+Flex:opsz,wght@8..144,400;8..144,600;8..144,700;8..144,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato&family=Poppins&family=Roboto+Flex:opsz,wght@8..144,400;8..144,600;8..144,700;8..144,800&display=swap");
 
 /* font-family: 'Inter', sans-serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Flex', sans-serif; */
 
-
 /* fonts Link End  */
 
-
 /* global styles */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
 }
 
-html{
-    font-size: 62.5%;
+a {
+  text-decoration: none;
 }
-
-a{
-    text-decoration: none;
+li {
+  list-style: none;
 }
-li{
-    list-style: none;
+ul{
+    padding-left: 0px;
 }
-
-.section-heading{
-    font-family: 'Roboto Flex', sans-serif;
-    font-size: 56px;
+p{
+    margin-bottom: 0px;
+}
+.section-heading {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 60px;
+  color: #1c1c1c;
+  padding-bottom: 15px;
+}
+.divider {
+  display: block;
+  width: 80px;
+  height: 8px;
+  background-color: #12c8a8;
+  margin-top: 15px;
+  margin-bottom: 18px;
+}
+.section-pera {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 26px;
+  color: #303030;
+  padding-top: 18px;
+  padding-bottom: 40px;
+}
+.global-btn {
+  padding: 16px 32px;
+  border-radius: 3px;
+  background-color: #12c8a8;
+  display: inline;
+  border: none;
+  margin-top: 40px;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 18px;
+  color: #ffffff;
+}
+.global-btn:hover {
+    border: 1px solid #12c8a8;
+    background-color: #fff;
+    color: #12c8a8;
+    cursor: pointer;
+}
+.section-subheading {
+     font-family: "Inter", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.footer-heading{
+   font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
     font-weight: 700;
-    line-height: 60px;
-    color: #1c1c1c;
-    padding-bottom: 15px;
+    line-height: 2rem  ;
+    color: white;
+    text-transform: capitalize;
 }
-.divider{
-    display: block;
-    width: 80px;
-    height: 8px;
-    background-color: #12C8A8;
-    margin-top: 15px;
-    margin-bottom: 18px;
-}
-.section-pera{
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
+.footer-li{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
     font-weight: 400;
-    line-height: 26px;
-    color: #303030;
-    padding-top: 18px;
-    padding-bottom: 20px;
+    line-height: 2.4rem;
+    color:#fff;
+    padding: 10px 0px;
+    text-transform: capitalize;
 }
-.global-btn{
-padding: 16px 32px;
-border-radius: 3px;
-background-color: #12C8A8;
-display: inline;
-border: none;
-margin-top: 20px;
+.footer-pera{
+    font-family: Inter;
+font-size: 1.6rem;
+font-weight: 400;
+line-height: 2.4rem;
+color:white;
+padding: 30px 0px;
+}
+/* Global Styiles end  */
+
+/* header section  */
+.menu{
+    padding: 30px 0px;
+}
+.nav-link{
+font-family: Roboto Flex;
+font-size: 1.8rem;
+font-weight: 600;
+line-height: 2.7rem;
+color:#090808;
+margin: 0 10px;
+}
+.nav-link:hover{
+    color: #12C8A8;
+}
+.navbar-nav .nav-link.active{
+    color: #12C8A8;
 }
 
-.global-btn a{
-    font-family: 'Roboto Flex', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 18px;
-    color: #ffffff;
+
+
+
+/* banner style start   */
+
+#banner{
+    background:url('Assets/banner-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    align-items: center;
 }
+.heading{
+font-family: 'Roboto Flex', sans-serif;
+font-size: 6.6rem;
+font-weight: 700;
+line-height: 8.5rem;
+color:#fff;
+margin-bottom: 40px;
+margin-top: -40px;
+}
+
+
+
+
+
+#about-section{
+    margin: 100px 0px;
+}
+
+/* OFFer Section Start  */
+#offer-section{
+    padding: 100px 0px;
+}
+.box h3{
+    font-family: 'Roboto Flex', sans-serif;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+}
+.box-1{
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.34) 100%), url(Assets/offer-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(0px 25px 50px rgba(0, 0, 0, 0.1));
+
+}
+.box-2{
+    /* background-image: url('Assets/offer-2.png'); */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.34) 100%), url(Assets/offer-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(0px 25px 50px rgba(0, 0, 0, 0.1));
+}
+.box-3{
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.34) 100%), url(Assets/offer-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(0px 25px 50px rgba(0, 0, 0, 0.1));
+}
+.box-4{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.34) 100%), url(Assets/offer-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(0px 25px 50px rgba(0, 0, 0, 0.1));
+}
+/* Offer Section End   */
+
+
+
+/* Roadmap Section Start  */
+
+#roadmap{
+    background: linear-gradient(180deg, #FFFFFF 7.81%, rgba(243, 255, 253, 0.92) 22.21%, rgba(213, 255, 248, 0.67) 34.38%, rgba(88, 184, 167, 0.12) 72.42%, rgba(37, 72, 66, 0) 100%), url('Assets/roadmap-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+    background-position: center bottom;
+}
+/* timeline  */
+.main-timeline {
+  position: relative;
+  padding-top: 200px;
+}
+.timeline {
+  position: relative;
+  width: 50%;
+}
+.card{
+      padding: 40px 35px 40px 40px;
+     background: #113630;
+backdrop-filter: blur(300px);
+border-radius: 15px;
+transition: all 0.5s ease-in-out;
+}
+.card:hover{
+    background: #1ECFB0;
+backdrop-filter: blur(300px);
+}
+.number{
+  font-family: 'Roboto Flex', sans-serif;
+font-size: 3rem;
+font-weight: 800;
+line-height: 3.5rem;
+color:#1ECFB0;
+padding: 28px;
+border-radius: 50%;
+border: 5px solid #1ECFB0;
+background-color: #fff;
+}
+.card-title{
+font-family: 'Roboto Flex', sans-serif;
+font-size: 2.5rem;
+font-weight: 700;
+line-height: 3.5rem;
+color: #fff;
+
+}
+.card-subtitle{
+font-family: 'Roboto Flex', sans-serif;
+font-size: 2rem;
+font-weight: 400;
+line-height: 3rem;
+color: white;
+opacity: 0.7;
+
+}
+.card-pera{
+font-family: 'Roboto Flex', sans-serif;
+font-size: 2rem;
+font-weight: 400;
+line-height: 3rem;
+text-transform: capitalize;
+color:white
+}
+.left {
+  padding: 0px 40px 20px 0px;
+  left: 0;
+}
+/* Place the container to the right */
+.right {
+  padding: 0px 0px 20px 40px;
+  left: 50%;
+}
+.right::after {
+  left: -12px;
+}
+
+/* NFT Section start   */
+#nft-section{
+    /* height: 90vh; */
+    background: linear-gradient(135.5deg, rgba(255, 255, 255, 0.94) 15.96%, rgba(255, 255, 255, 0.95) 81.65%),url('Assets/nft-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+.bird{
+    transform: rotate(15deg);
+    overflow-x: hidden;
+}
+#contact-section{
+    height: 100vh;
+    background: url('Assets/contact-bg.png');
+    margin-top: -230px;
+}
+.contact{
+    padding-top: 320px;
+}
+.form-control{
+ border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 25px 0px 25px 15px;
+    color: black;
+    font-size: 2rem;
+    line-height: 2.5rem;
+     font-family: "Inter", sans-serif;
+     font-weight: 400;
+}
+.form-control:focus{
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 25px 0px 25px 15px;
+    color: black;
+    font-size: 2rem;
+    line-height: 2.5rem;
+
+
+}
+.form-control::placeholder {
+  color: white;
+}
+.footer{
+    background-color: #03241E;
+    padding: 50px 0px;
+}
+.address-list li{
+display: flex;
+align-items:  center;
+padding: 10px 0px;
+}
+.address-list li svg{
+    fill: white;
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+.address-list li p{
+    padding-left: 20px;
+}
+.logos svg {
+    color: white;
+    fill: white;
+    height: 20px;
+    width:20px;
+    margin: 0px 5px;
+}
+.svg{
+    width: 20px;
+    height: 20px;
+}
+
+.copyright{
+    font-family: Poppins;
+font-size: 1.2rem;
+font-weight: 400;
+line-height: 1.2rem;
+color: white;
+padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium Devices */
+@media only screen and  (max-width: 1023px) {
+
+
+    .heading{
+        font-size: 5rem;
+    line-height: 6rem;
+    }
+    #banner{
+        padding: 20px;
+    }
+#about-section{
+        padding: 20px;
+        margin: 50px 0px;
+    }
+    .section-heading{
+        font-size: 4rem;
+        line-height: 5rem;
+        padding-bottom: 0px;
+    }
+    .divider {
+        height: 5px;
+        margin-top: 7px;
+        margin-bottom: 9px;
+    }
+    .section-pera{
+        padding-top: 10px;
+    }
+    .global-btn{
+        padding: 12px 24px;
+    }
+    #offer-section{
+        padding: 50px 20px;
+}
+.timeline {
+    width: 75%;
+    padding-top: 0px;
+  }
+  .right{
+    left:25%
+  }
+.footer{
+    padding: 20px;
+}
+
+ /* Small Devices  */
+@media only screen and (max-width: 767px) {
+    .heading{
+        font-size: 4rem;
+    line-height: 5rem;
+    }
+    #banner{
+        padding: 20px;
+    }
+    #about-section{
+        padding: 20px;
+        margin: 30px 0px;
+    }
+    .section-heading{
+        font-size: 3.2rem;
+        line-height: 4.2rem;
+        padding-bottom: 0px;
+    }
+    .divider {
+    height: 5px;
+    margin-top: 7px;
+    margin-bottom: 9px;
+    }
+    .section-pera{
+        padding-top: 10px;
+    }
+    .global-btn{
+        padding: 12px 24px;
+
+    }
+    #offer-section{
+    padding: 20px;
+}
+    #nft-section{
+        padding: 20px;
+    }
+    .box h3{
+        font-size: 2.8rem;
+        line-height: 4.6rem;
+    }
+
+    #contact-section{
+        margin-top: -150px;
+        padding: 20px;
+    }
+    .contact{
+        padding-top: 200px;
+    }
+    .footer{
+    padding: 20px;
+}
+.main-timeline{
+    padding-top: 0px;
+    padding: 20px;
+  }
+  .timeline {
+    width: 100%;
+    padding-top: 0px;
+  }
+  .card{
+    padding: 20px;
+  }
+  .right{
+    padding: 0px 0px 20px 0px;
+  }
+  .left{
+    padding: 0px 0px 20px 0px;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+
+
+  /* Make sure all circles are at the same spot */
+  .left::after,
+  .right::after {
+    left: 18px;
+  }
+
+  .left::before {
+    right: auto;
+  }
+
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+
