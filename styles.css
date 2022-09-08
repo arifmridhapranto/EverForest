@@ -113,6 +113,9 @@ padding: 30px 0px;
 .menu{
     padding: 30px 0px;
 }
+.navbarnav{
+  display: flex;
+}
 .nav-link{
 font-family: Roboto Flex;
 font-size: 1.8rem;
@@ -163,6 +166,10 @@ margin-top: -40px;
 #offer-section{
     padding: 100px 0px;
 }
+.box{
+  width: 47%;
+  border-radius: 15px;
+}
 .box h3{
     font-family: 'Roboto Flex', sans-serif;
     color: #fff;
@@ -199,6 +206,14 @@ margin-top: -40px;
     background-size: cover;
     background-position: center;
     filter: drop-shadow(0px 25px 50px rgba(0, 0, 0, 0.1));
+}
+
+
+.inner-box{
+padding: 70px 50px;
+}
+.inner-box2{
+padding: 100px 50px;
 }
 /* Offer Section End   */
 
@@ -447,12 +462,30 @@ padding-top: 30px;
 
 
 /* Medium Devices */
+@media only screen and  (max-width: 991px) {
+  .navbar>.menu{
+    flex-wrap: nowrap;
+  }
+
+  .navbar-toggler{
+    border: 1px solid #555555;
+  }
+  .navbar-toggler-icon{
+    background-image: url('Assets/menu.svg');
+    height:30px;
+    width: 30px;
+  }
+
+}
 @media only screen and  (max-width: 1023px) {
 
 
     .heading{
         font-size: 5rem;
     line-height: 6rem;
+    }
+    .menu{
+      padding: 20px;
     }
     #banner{
         padding: 20px;
@@ -490,12 +523,16 @@ padding-top: 30px;
 .footer{
     padding: 20px;
 }
+}
 
  /* Small Devices  */
 @media only screen and (max-width: 767px) {
     .heading{
         font-size: 4rem;
     line-height: 5rem;
+    }
+    .section-pera{
+      padding-bottom: 0px;
     }
     #banner{
         padding: 20px;
@@ -533,8 +570,10 @@ padding-top: 30px;
     }
 
     #contact-section{
+      height: 110vh;
         margin-top: -150px;
-        padding: 20px;
+        padding: 20px 20px 230px 20px;
+        /* padding-bottom: 230px; */
     }
     .contact{
         padding-top: 200px;
@@ -578,4 +617,3 @@ padding-top: 30px;
     left: 0%;
   }
 }
-
