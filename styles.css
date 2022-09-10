@@ -62,7 +62,6 @@ p {
   background-color: #12c8a8;
   display: inline;
   border: 1px solid #12c8a8;
-  margin-top: 40px;
   font-family: "Roboto Flex", sans-serif;
   font-size: 1.8rem;
   font-weight: 600;
@@ -107,6 +106,11 @@ p {
   color: white;
   padding: 30px 0px;
 }
+/* .wave{
+  position: absolute;
+  top:50%;
+  left: 80%;
+} */
 /* Global Styiles end  */
 
 /* header section  */
@@ -520,8 +524,9 @@ p {
     font-size: 4rem;
     line-height: 5rem;
   }
-  .section-pera {
-    padding-bottom: 25px;
+  .navbar-toggler-icon{
+    height: 20px;
+    width: 20px;
   }
   #banner {
     /* background-position: bottom center; */
@@ -562,8 +567,11 @@ p {
   }
 
   .card-number{
-    height: 100px;
-    width: 110px;
+        height: 75px;
+    width: 75px;
+  }
+  .number{
+    padding: 14px;
   }
   #nft-section {
     padding: 20px 20px 130px 20px;
@@ -585,10 +593,18 @@ p {
     padding: 20px 20px 80px 20px;
   }
   .contact {
-    padding-top: 200px;
+    padding-top: 100px;
+  }
+  .form-control{
+padding: 10px 0px 10px 15px;
+font-size: 1.6rem;
+line-height: 2.6rem;
   }
   .footer {
     padding: 20px;
+  }
+  .footer-logo{
+    width: 80%;
   }
   .main-timeline {
     padding-top: 0px;
