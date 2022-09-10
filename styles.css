@@ -133,6 +133,7 @@ p {
 #banner {
   background: url("Assets/banner-bg.png");
   background-repeat: no-repeat;
+  background-position: center bottom;
   background-size: cover;
   height: 110vh;
   display: flex;
@@ -203,6 +204,7 @@ p {
   font-size: 3.5rem;
   font-weight: 700;
   line-height: 4.5rem;
+  text-transform: capitalize;
   z-index: 999;
 }
 .box-1 {
@@ -526,7 +528,10 @@ p {
     padding-bottom: 25px;
   }
   #banner {
-    padding: 20px;
+    /* background-position: bottom center; */
+    background-size: cover;
+    height: auto;
+    padding: 120px 20px;
   }
   #about-section {
     padding: 20px;
