@@ -156,9 +156,17 @@ p {
 #offer-section {
   padding: 100px 0px;
 }
+.text-box .row {
+  flex-wrap: nowrap;
+}
+
 .box {
+  padding: 70px 35px;
   width: 47%;
   border-radius: 15px;
+}
+.inner-box {
+  width: 82%;
 }
 .box h3 {
   font-family: "Roboto Flex", sans-serif;
@@ -216,12 +224,7 @@ p {
   background-position: center;
   filter: drop-shadow(0px 25px 50px rgba(0, 0, 0, 0.1));
 }
-.inner-box {
-  padding: 70px 50px;
-}
-.inner-box2 {
-  padding: 100px 50px;
-}
+
 /* Offer Section End   */
 
 /* Roadmap Section Start  */
@@ -240,6 +243,8 @@ p {
   background-size: cover;
   padding-bottom: 200px;
   background-position: center bottom;
+  margin-bottom: -50px;
+
 }
 /* timeline  */
 .main-timeline {
@@ -320,6 +325,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 200px;
+  padding-top: 100px;
 }
 .bird {
   transform: rotate(15deg);
@@ -424,6 +430,12 @@ p {
   #offer-section {
     padding: 50px 20px;
   }
+  .text-box {
+    padding: 20px;
+  }
+  .box {
+    padding: 50px 25px;
+  }
   .timeline {
     width: 75%;
     padding-top: 0px;
@@ -446,7 +458,22 @@ p {
     height: 30px;
     width: 30px;
   }
+  #offer-section {
+    padding: 20px;
+  }
+  .text-box {
+    padding: 20px;
+  }
+  .inner-box {
+    width: 50%;
+  }
 }
+@media only screen and (max-width: 880px) {
+  .navbar-brand {
+width: 80%;
+  }
+}
+
 
 /* Small Devices  */
 @media only screen and (max-width: 767px) {
@@ -455,7 +482,7 @@ p {
     line-height: 5rem;
   }
   .section-pera {
-    padding-bottom: 0px;
+    padding-bottom: 25px;
   }
   #banner {
     padding: 20px;
@@ -489,6 +516,9 @@ p {
   .box h3 {
     font-size: 2.8rem;
     line-height: 4.6rem;
+  }
+  .text-box {
+    padding: 30px 0 0 0;
   }
   #contact-section {
     height: 110vh;
@@ -528,5 +558,14 @@ p {
   }
   .right {
     left: 0%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .inner-box {
+    width: 80%;
+  }
+  #roadmap{
+    margin-top: 50px;
   }
 }
