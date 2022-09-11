@@ -273,7 +273,7 @@ p {
 
 #roadmap {
   background: url("Assets/rodmap-bg.png");
-  background-color:linear-gradient(360deg, #fdfcfa 50%, #fff 50%);
+     background-color:#fcfcfa;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 200px;
@@ -578,7 +578,7 @@ p {
 
   #roadmap {
     background: url("Assets/mobile-rodmap-bg.png");
-    background-color:linear-gradient(360deg, #fdfcfa 50%, #fff 50%);
+    background-color:#fcfcfa;
     background-position: center bottom;
     background-size: cover;
     padding-bottom: 70px;
