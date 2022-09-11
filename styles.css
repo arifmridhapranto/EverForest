@@ -117,6 +117,10 @@ p {
 .navbarnav {
   display: flex;
 }
+
+.navbar-brand img{
+  width: 35%;
+}
 .nav-link {
   font-family: Roboto Flex;
   font-size: 1.8rem;
@@ -636,10 +640,14 @@ p {
 }
 
 @media only screen and (max-width: 576px) {
+  .navbar-brand img{
+    width: 50%;
+  }
   .inner-box {
     width: 80%;
   }
   #roadmap {
     margin-top: 50px;
   }
+
 }
