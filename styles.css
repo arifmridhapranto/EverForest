@@ -272,8 +272,7 @@ p {
 /* Roadmap Section Start  */
 
 #roadmap {
-  background: url("Assets/roadmap-bg.png");
-     background-color:#fcfcfa;
+  background:url("Assets/roadmap-bg.png"),linear-gradient(180deg,#fff 30%,#fcfcfa 70%);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 200px;
@@ -572,8 +571,7 @@ p {
   }
 
   #roadmap {
-    background: url("Assets/mobile-rodmap-bg.png");
-    background-color:#fcfcfa;
+    background: url("Assets/mobile-rodmap-bg.png"),linear-gradient(180deg,#fff 30%,#fcfcfa 70%);
     background-position: center bottom;
     background-size: cover;
     padding-bottom: 70px;
