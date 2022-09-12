@@ -370,14 +370,14 @@ p {
   padding-bottom: 40px;
 }
 .contact {
-  padding-top: 320px;
+  padding-top: 175px;
 }
 .form-control {
   border: 1px solid white;
   background-color: rgba(255, 255, 255, 0.2);
-  padding: 25px 0px 25px 15px;
+  padding: 20px 0px 20px 15px;
   color: black;
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 2.5rem;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -385,10 +385,7 @@ p {
 .form-control:focus {
   border: 1px solid white;
   background-color: rgba(255, 255, 255, 0.2);
-  padding: 25px 0px 25px 15px;
-  color: black;
-  font-size: 2rem;
-  line-height: 2.5rem;
+  padding: 20px 0px 20px 15px;
 }
 .form-control::placeholder {
   color: white;
@@ -608,8 +605,6 @@ p {
   }
   .form-control {
     padding: 10px 0px 10px 15px;
-    font-size: 1.6rem;
-    line-height: 2.6rem;
   }
   .footer {
     padding: 20px;
