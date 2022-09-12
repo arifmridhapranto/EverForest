@@ -350,7 +350,7 @@ p {
 /* NFT Section start   */
 #nft-section {
   /* height: 90vh; */
-  background:url("Assets/nft-bg.png");
+  background: url("Assets/nft-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 200px;
