@@ -19,6 +19,17 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
+.bg-white{
+  background-color: white;
+}
+.py-lg-3{
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+}
+p-4{
+  padding: 1.5rem;
+
+}
 
 a {
   text-decoration: none;
@@ -31,6 +42,9 @@ ul {
 }
 p {
   margin-bottom: 0px;
+}
+ul .nav-item:last-child .nav-link{
+  padding-right: 0px;
 }
 .section-heading {
   font-family: "Roboto Flex", sans-serif;
@@ -210,9 +224,9 @@ p {
 .box-text {
   font-family: "Roboto Flex", sans-serif;
   color: #fff;
-  font-size: 3.5rem;
-  font-weight: 700;
-  line-height: 4.5rem;
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 4.2rem;
   text-transform: capitalize;
   z-index: 999;
 }
@@ -450,8 +464,8 @@ p {
     width: 234px;
   }
   .box-text{
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 2.8rem;
+    line-height: 3.8rem;
   }
   .number{
     padding: 24px;
@@ -493,8 +507,8 @@ p {
     padding: 50px 20px;
   }
   .box-text {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 2.8rem;
+    line-height: 3.8rem;
   }
 
   .timeline {
@@ -612,8 +626,8 @@ p {
     padding: 20px 20px 130px 20px;
   }
   .box-text {
-    font-size: 2.2rem;
-    line-height: 3.4rem;
+    font-size: 2rem;
+    line-height: 3rem;
   }
   .text-box {
     padding: 15px 0 0 0;
