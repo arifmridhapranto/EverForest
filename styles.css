@@ -286,7 +286,7 @@ ul .nav-item:last-child .nav-link{
 /* Roadmap Section Start  */
 
 #roadmap {
-  background:url("Assets/roadmap-bg.png"),linear-gradient(180deg,#fff 30%,#fcfcfa 70%);
+  background:linear-gradient(180deg, #FFFFFF 7.81%, rgba(243, 255, 253, 0.92) 22.21%, rgba(213, 255, 248, 0.67) 34.38%, rgba(88, 184, 167, 0.12) 72.42%, rgba(37, 72, 66, 0) 100%),url("Assets/roadmap-bg.png"),linear-gradient(180deg,#ffffff 30%,#fcfcfa 70%);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 200px;
@@ -609,7 +609,7 @@ ul .nav-item:last-child .nav-link{
   }
 
   #roadmap {
-    background: url("Assets/mobile-rodmap-bg.png"),linear-gradient(180deg,#fff 30%,#fcfcfa 70%);
+    background: linear-gradient(180deg, #FFFFFF 7.81%, rgba(243, 255, 253, 0.92) 22.21%, rgba(213, 255, 248, 0.67) 34.38%, rgba(88, 184, 167, 0.12) 72.42%, rgba(37, 72, 66, 0) 100%),url("Assets/mobile-rodmap-bg.png"),linear-gradient(180deg,#fff 30%,#fcfcfa 70%);
     background-position: center bottom;
     background-size: cover;
     padding-bottom: 70px;
