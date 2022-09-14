@@ -34,9 +34,9 @@ p {
 }
 .section-heading {
   font-family: "Roboto Flex", sans-serif;
-  font-size: 5.6rem;
+  font-size: 4rem;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 5rem;
   color: #1c1c1c;
   padding-bottom: 15px;
 }
@@ -150,9 +150,9 @@ p {
 }
 .heading {
   font-family: "Roboto Flex", sans-serif;
-  font-size: 6.6rem;
+  font-size: 5.6rem;
   font-weight: 700;
-  line-height: 8.5rem;
+  line-height: 6.6rem;
   color: #fff;
   margin-bottom: 40px;
   margin-top: -40px;
@@ -430,8 +430,16 @@ p {
 
 @media only screen and (max-width: 1199px) {
   .heading{
-    font-size: 5.5rem;
-    line-height: 6.5rem;
+    font-size: 4.8rem;
+    line-height: 5.8rem;
+  }
+  .section-heading {
+    font-size: 3.2rem;
+ line-height: 4.2rem;
+  }
+  .divider{
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   .wave {
     bottom: -10%;
@@ -441,13 +449,22 @@ p {
     height: 260px;
     width: 234px;
   }
+  .box-text{
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .number{
+    padding: 24px;
+  }
+  .left{padding: 0px 0px 20px 10px;}
+  .right{padding: 0px 10px 20px 40px}
 }
 
 /* Large Devices */
 @media only screen and (max-width: 1023px) {
   .heading {
-    font-size: 5rem;
-    line-height: 6rem;
+    font-size: 4rem;
+    line-height: 5rem;
   }
   #banner {
     padding: 20px;
@@ -457,8 +474,8 @@ p {
     margin: 50px 0px;
   }
   .section-heading {
-    font-size: 4rem;
-    line-height: 5rem;
+    font-size: 3.2rem;
+    line-height: 4.8rem;
     padding-bottom: 0px;
   }
   .divider {
@@ -476,7 +493,8 @@ p {
     padding: 50px 20px;
   }
   .box-text {
-    font-size: 3.2rem;
+    font-size: 3rem;
+    line-height: 4rem;
   }
 
   .timeline {
@@ -486,6 +504,15 @@ p {
   .right {
     left: 25%;
   }
+     .card{
+    padding: 30px 25px 30px 30px;
+  }
+  .number{
+    padding: 20px;
+  }
+  .card-subtitle{font-size: 1.8rem; line-height: 2.8rem;}
+  .card-title{font-size: 2.2rem;line-height: 3.2rem;}
+  .card-pera{font-size: 1.6rem; line-height: 2.6rem;}
   .footer {
     padding: 20px;
   }
@@ -574,13 +601,13 @@ p {
     padding-bottom: 70px;
   }
 
-  .card-number {
+  /* .card-number {
     height: 75px;
     width: 75px;
-  }
-  .number {
+  } */
+  /*.number {
     padding: 14px;
-  }
+  } */
   #nft-section {
     padding: 20px 20px 130px 20px;
   }
@@ -591,6 +618,16 @@ p {
   .text-box {
     padding: 15px 0 0 0;
   }
+   .card-number{
+    height: 60px;
+    width: 65px;
+  }
+  .number{
+    padding: 10px;
+  }
+  .card-subtitle{font-size: 1.6rem; line-height: 2.6rem;}
+  .card-title{font-size: 2rem;line-height: 3rem;}
+  .card-pera{font-size: 1.4rem; line-height: 2.4rem;}
   #contact-section {
     height: auto;
     background: url("Assets/mobile-contact-bg.png");
@@ -645,11 +682,21 @@ p {
   .navbar-brand img{
     width: 50%;
   }
+ .heading{
+  margin-top: 0px;
+ }
   .inner-box {
     width: 80%;
   }
   #roadmap {
-    margin-top: 50px;
+    padding-top: 50px;
+  }
+  .card-number{
+    height: 60px;
+    width: 65px;
+  }
+  .number{
+    padding: 10px;
   }
 
 }
