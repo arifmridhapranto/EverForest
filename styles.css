@@ -291,7 +291,7 @@ ul .nav-item:last-child .nav-link{
   background-size: cover;
   padding-bottom: 140px;
   background-position: center bottom;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 /* timeline  */
 .main-timeline {
@@ -555,6 +555,9 @@ ul .nav-item:last-child .nav-link{
     background-image: url("Assets/menu.svg");
     height: 30px;
     width: 30px;
+  }
+  #about-section {
+    padding: 0px 20px 20px 20px;
   }
   #offer-section {
     padding: 20px;
