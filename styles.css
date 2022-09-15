@@ -173,12 +173,12 @@ ul .nav-item:last-child .nav-link{
 }
 
 #about-section {
-  padding: 50px 0px 100px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 /* OFFer Section Start  */
 #offer-section {
-  padding: 100px 0px;
+  padding: 0px 0px;
 }
 .text-box {
   display: flex;
@@ -289,14 +289,14 @@ ul .nav-item:last-child .nav-link{
   background:linear-gradient(180deg, #FFFFFF 7.81%, rgba(243, 255, 253, 0.92) 22.21%, rgba(213, 255, 248, 0.67) 34.38%, rgba(88, 184, 167, 0.12) 72.42%, rgba(37, 72, 66, 0) 100%),url("Assets/roadmap-bg.png"),linear-gradient(180deg,#ffffff 30%,#fcfcfa 70%);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 200px;
+  padding-bottom: 140px;
   background-position: center bottom;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 /* timeline  */
 .main-timeline {
   position: relative;
-  padding-top: 50px;
+  padding-top: 30px;
   width: 80%;
   margin: 0px auto;
 }
@@ -369,8 +369,12 @@ ul .nav-item:last-child .nav-link{
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 200px;
-  padding-top: 100px;
   overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#nft-section .row{
+  margin-top: -120px;
 }
 .bird {
   transform: rotate(15deg);
@@ -461,6 +465,15 @@ ul .nav-item:last-child .nav-link{
     bottom: -10%;
     left: 60%;
 }
+.main-timeline{
+  padding-top: 0px;
+}
+#nft-section .row{
+  margin-top: -60px;
+}
+.contact {
+    padding-top: 95px;
+}
   .box {
     height: 260px;
     width: 234px;
@@ -487,7 +500,6 @@ ul .nav-item:last-child .nav-link{
   }
   #about-section {
     padding: 20px;
-    margin: 50px 0px;
   }
   .section-heading {
     font-size: 3.2rem;
@@ -553,6 +565,15 @@ ul .nav-item:last-child .nav-link{
   .inner-box {
     width: 50%;
   }
+  #roadmap{
+    padding-top: 0px;
+  }
+  #nft-section .row{
+    margin-top: 0px;
+  }
+  .contact{
+    padding-top: 85px;
+  }
   .wave {
     bottom: 8%;
     left: 60%;
@@ -588,7 +609,6 @@ ul .nav-item:last-child .nav-link{
   }
   #about-section {
     padding: 20px;
-    margin: 30px 0px;
   }
   .section-heading {
     font-size: 3.2rem;
@@ -705,7 +725,10 @@ ul .nav-item:last-child .nav-link{
     width: 80%;
   }
   #roadmap {
-    padding-top: 50px;
+    padding-top: 0px;
+  }
+  #nft-section .row{
+    margin-top: -40px;
   }
   .card-number{
     height: 60px;
